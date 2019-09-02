@@ -1,0 +1,39 @@
+1. Create a new folder with option name
+2. Run: git init
+3. Create a md file and set name as README: to show to everyone effect of project
+4. Run: git add .
+5. Config a account git:
+git config --global user.email " your email "
+git config --global user.name "your name"
+
+6. git log : view commits
+   git show: view contents was changed
+   git diff: check change
+7. checkout -- [name file]
+Remove any change in old commit
+8. git reset HEAD [name file]
+   git reset [name file]
+Remove file was add into working directory
+Remove a miss commit
+   git reset --soft [hash of commit which you want to come back]
+	come back to stating mode : mode had added
+   git reset --mixed [hash of commit which you want to come back]
+        come back to working mode : not yet add
+   git reset --hard [hash of commit which you want to come back]
+	come back to working mode BUT it will DELETE all old that was old commit
+
+9. branch
+When we code a new function, we will create a new branch
+We well join into master branch when we have finished that function
+The way to create a new branch:
+- git checkout -b [branch name]
+To come back other branch:
+- git checkout [name branch]
+To delete a branch
+- git branch -D [name branch]
+10. merge
+Adding changes from other branch to current branch
+Example: Merge A branch with B branch
+Step 1: You must stay branch A: git checkout A
+Step 2: git merge B
+
