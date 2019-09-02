@@ -71,3 +71,18 @@ Because I use Ubuntu so it will be displayed following:
 - If prompted, confirm your Github password
 Finish !
 
+14. Git clone/pull
+- git clone [http...]
+- git pull
+15. Steps team work:
+- git checkout -b [branch name]
+- git push origin [branch]
+- create a pull request on Github
+- review code
+	online: on Github
+	offline: using git fetch
+16. Git fetch
+- git fetch origin [name branch which you want pull to review code]
+17. Resolve conflict
+- Using rebase
+- Using merge
