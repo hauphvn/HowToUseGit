@@ -159,3 +159,10 @@ offline: using git fetch
 - Using rebase
 
 - Using merge
+
+18. Patch file  
+- Create a patch file: ``git format-patch HEAD~n``  
+- Apply patch - showing: ``git apply --stat file.patch`` 
+- Apply patch - checking: ``git apply --check file.patch`` 
+Apply patch : ``git am --signoff < file.patch``, you can ignore –signoff.  
+
